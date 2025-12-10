@@ -6,9 +6,9 @@ Repositorio oficial del código asociado al Trabajo de Fin de Grado:
 **"Revisión bibliográfica sobre Dinámica Molecular. Modelización, algoritmos y aplicaciones"**
 
 Doble grado en Matemáticas e Ingeniería Informática – Universidad de Granada  
-Autor: Joaquín Arcila Pérez
-Tutor/es: Juan Calvo Yagüe, Lázaro René Izquierdo Fábregas
-Curso académico: 2024–2025  
+\\ Autor: Joaquín Arcila Pérez
+\\ Tutor/es: Juan Calvo Yagüe, Lázaro René Izquierdo Fábregas
+\\ Curso académico: 2024–2025  
 
 ---
 
