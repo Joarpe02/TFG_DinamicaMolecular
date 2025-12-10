@@ -7,7 +7,8 @@ Por otro lado, el archivo volumen_verlet_euler.py simula el movimiento de un osc
 
 
 
-# Trabajo Fin de Grado Joaquín Arcila Pérez
+# Trabajo de Fin de Grado — Dinámica Molecular  
+**Joaquín Arcila Pérez**
 
 Repositorio oficial del código asociado al Trabajo de Fin de Grado:
 
@@ -39,17 +40,33 @@ Estas versiones contienen la memoria completa del trabajo en formato PDF.
 
 ## 💻 Código Fuente
 
-El código fuente completo del proyecto se encuentra en este repositorio de GitHub:
+Este repositorio contiene los scripts implementados para apoyar la revisión bibliográfica realizada sobre la dinámica molecular.
 
-- 💾 **Repositorio principal del código**:  
-  https://github.com/USUARIO/NOMBRE-REPO
+En particular:
 
-Este repositorio incluye:
-- Código fuente.
-- Scripts de ejecución.
-- Configuración de experimentos.
-- Resultados obtenidos.
-- Documentación técnica adicional.
+- **`sim_estabilidad_verlet.py`**  
+  Simula el movimiento de un oscilador armónico mediante el algoritmo de **Verlet** para dos pasos de integración distintos, mostrando la influencia de dicho parámetro en la **estabilidad numérica** del algoritmo.
 
-Estructura básica:
+- **`volumen_verlet_euler.py`**  
+  Simula el movimiento de un oscilador armónico mediante el algoritmo de **Verlet (simpléctico)** y el de **Euler (no simpléctico)**, mostrando cómo los algoritmos no simplécticos **no conservan el volumen en el espacio de fases** y, por tanto, no son estables, mientras que los simplécticos sí lo son.
+
+---
+
+## ⚙️ Requisitos
+
+- Lenguaje principal: **Python 3**
+- Librerías principales:
+  - `numpy`
+  - `matplotlib`
+- Sistema operativo: Windows / Linux / macOS
+
+---
+
+## ▶️ Ejecución
+
+Para ejecutar los scripts:
+
+```bash
+python sim_estabilidad_verlet.py
+python volumen_verlet_euler.py
 
